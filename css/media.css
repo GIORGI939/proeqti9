@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px ) {      
+.empty{display: none;}
+
+.container{
+    max-width: 480px;
+}    
+header{
+    justify-content: space-between;
+    padding-bottom: 22px;
+    }
+.header_image{
+    width: 200%;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.section1{
+    width: 480px;
+    height: 253px;
+    background-image: url("../images/rock.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    width: 480px;
+    font-size: 20px;
+    color: #707070; 
+    text-align: center;
+}
+.section2{
+    width: 480px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards1{
+    width: 320px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card{
+    width: 480px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+figcaption{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 12px;}
+.text1{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+}
